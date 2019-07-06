@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form action="Soma" method="GET">
+                <input type="text" name="a">
+                + 
+                <input type="text" name="b">
+            
+                <input type="submit" value="=">
+            </form>
+        </div>
+        <br>
+        <div>
+            <form action="Subtracao" method="GET">
+                <input type="text" name="a">
+                - 
+                <input type="text" name="b">
+            
+                <input type="submit" value="=">
+            </form>
+        </div>
+        <br>
+        <div>
+            <form action="multiplicacao" method="GET">
+                <input type="text" name="a">
+                * 
+                <input type="text" name="b">
+            
+                <input type="submit" value="=">
+            </form>
+        </div>
+        <br>
+        <div>
+            <form action="Divisao" method="GET">
+                <input type="text" name="a">
+                / 
+                <input type="text" name="b">
+            
+                <input type="submit" value="=">
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            Formulário único
+            <form method="GET">
+                <input type="text" name="a">
+                <br>
+                <br>
+                <input type="text" name="b">
+                <br>
+                <br>
+                <input type="submit" formaction="Soma" value="Adição" />
+                <input type="submit" formaction="Subtracao" value="Subtração" />
+                <input type="submit" formaction="multiplicacao" value="Multiplicação" />
+                <input type="submit" formaction="Divisao" value="Divisão" />
+            </form>
+        </div>
+    </body>
+</html>
